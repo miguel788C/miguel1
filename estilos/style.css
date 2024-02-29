@@ -1,60 +1,65 @@
 
-  #general{
+#general{
+  margin: auto;
+  margin-top: 15px;
+  border-radius: 150px;
+  width: 600px;
+  height: 600px;
+  background-color: #7fffd4;
+}
+#provi{
+  width: 30px;
+}
+#caja1{
+  margin: auto;
+  margin-top: 30;
+  border-radius: 250px;
+  float: left;
+  position: absolute;
+  top: 10%;
+  left:26%;
+  width: 270px;
+  height: 270px;
+  background-color: chocolate;
+}
+#caja2 {
+  margin: auto;
+  margin-top: 30;
+  border-radius: 250px;
+  float: right;
+  position: absolute;
+  top: 10%;
+  left:50%;
+  width: 270px;
+  height: 270px;
+  background-color: chocolate;
+}
+#caja3 
+{
     margin: auto;
-    margin-top: 15px;
-    border-radius: 50%;
-    width: 600px;
-    height: 600px;
-    background-color: #91ff00;
-  }
-  #caja1{
-    margin: auto;
-    margin-top: 1%;
-    border-radius: 50%;
-    float: left;
-    position: absolute;
-    top: 15%;
-    left:35%;
-    width: 15%;
-    height: 30%;
-    background-color: rgb(30, 189, 210);
-  }
-  #caja2 {
-    margin: auto;
-    margin-top: 1%;
-    border-radius: 50%;
-    float: right;
-    position: absolute;
-    top: 15%;
-    left:50%;
-    width: 15%;
-    height: 30%;
-    background-color: rgb(30, 189, 210);
-  }
-  #caja3 
-  {
-      margin: auto;
-      border-radius: 50%;
-      margin-top: 1%;
-      margin-left: 3%;
-      position: absolute;
-      top: 50%;
-      left: 42%;
-      width: 10%;
-      height: 20%;
-      background-color: red;
-  }
-  #caja4 
-  {
+    
     border-radius: 250px;
-    margin: auto;
     margin-top: 30px;
     margin-left: 30px;
     position: absolute;
-    top: 70%;
-    left: 480px;
-    width: 25%;
-    height: 20%;
-    background-color: rgb(251, 255, 0);
-  }
+    top: 45%;
+    left: 41%;
+    width: 140px;
+    height: 120px;
+    background-color: red;
+}
+#caja4 
+{
+  border-radius: 250px;
+  margin: auto;
+  margin-top: 30px;
+  margin-left: 30px;
+  position: absolute;
+  top: 67%;
+  left: 30%;
+  width: 400px;
+  height: 140px;
+  background-color: gold;
+}
+
   
