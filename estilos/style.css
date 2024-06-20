@@ -1,8 +1,19 @@
 
+h1{
+    background-color: rgb(241, 134, 28);
+    color: blue;
+    font-family:courier;
+    font-size: 30px;
+}
+p{
+    color: rgb(8, 166, 245);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
 .rec1{
 
-width: 50%;
-height: 50px;
+width: 200px;
+height: 40px;
 border: 5px solid rgb(235, 151, 35);
 background-color: transparent;
 margin-bottom: 0PX;
@@ -10,7 +21,7 @@ border-radius: 10px ;
 }
 .rec2{
 
-    width: 48%;
+    width: 180px;
     height: 20px;
     border: 5px solid rgb(235, 151, 35);
     background-color: transparent;
@@ -19,22 +30,181 @@ border-radius: 10px ;
 }
 .contenedor{
 
-    width: 48%;
-    height: 200px;
-    border: 5px solid rgb(235, 151, 35);
+    width: 180px;
+    height: 180px;
     background-color: transparent;
     margin-bottom: 0PX;
     border-radius: 10px ;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 6px solid rgb(235, 151, 35);;
+    
 }
 .cua{
 
-    width: 50%;
-    height: 300px;
+    width: 200px;
+    height: 250px;
     border: 5px solid rgb(235, 151, 35);
     background-color: transparent;
     margin-bottom: 0PX;
     border-radius: 10px ;
+    
 }
 
 
-  
+.ojo {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border: 5px solid rgb(235, 151, 35);
+    position: absolute;
+}
+
+.ojo.izquierdo {
+    top: 30px;
+    left: 30px;
+}
+
+.ojo.derecho {
+    top: 30px;
+    right: 30px;
+}
+
+.nariz {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 120px solid rgb(235, 151, 35);
+    position: absolute;
+    top: 0px;
+    left: calc(50% - 15px);
+}
+
+.boca {
+    width: 60px;
+    height: 20px;
+    position: absolute;
+    top: 130px;
+    border: 5px solid rgb(235, 151, 35);
+    background-color: transparent;
+    border-radius: 10px ;
+}
+
+.contenedor2{
+
+    width: 200px;
+    height: 210px;
+    background-color: transparent;
+    margin-bottom: 0PX;
+    border-radius: 10px ;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 6px solid rgb(235, 151, 35);;
+    
+}
+
+.mano {
+    width: 30px;
+    height: 140px;
+    background-color: #fff;
+    border: 5px solid rgb(235, 151, 35);
+    position: absolute;
+}
+
+.mano.izquierdo {
+    top: 10px;
+    left: 10px;
+}
+
+.mano.derecho {
+    top: 10px;
+    right: 10px;
+}
+.m {
+    width: 75px;
+    height: 30px;
+    background-color: #fff;
+    border: 5px solid rgb(235, 151, 35);
+    position: absolute;
+}
+
+.m.izquierdo {
+    top: 150px;
+    left: 10px;
+}
+
+.m.derecho {
+    top: 150px;
+    right: 10px;
+}
+.contenedor3{
+
+    width: 200px;
+    height: 180px;
+    background-color: transparent;
+    margin-bottom: 0PX;
+    border-radius: 10px ;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 0px solid rgb(235, 151, 35);;
+    
+}
+.pie {
+    width: 82px;
+    height: 180px;
+    background-color: #fff;
+    border: 5px solid rgb(235, 151, 35);
+    position: absolute;
+}
+
+.pie.izquierdo {
+    top: 0px;
+    left: 10px;
+}
+
+.pie.derecho {
+    top: 0px;
+    right: 10px;
+}
+.contenedor4{
+
+    width: 200px;
+    height: 180px;
+    background-color: transparent;
+    margin-bottom: 0PX;
+    border-radius: 10px ;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 0px solid rgb(235, 151, 35);;
+    
+}
+.p {
+    width: 100px;
+    height: 30px;
+    background-color: #fff;
+    border: 5px solid rgb(235, 151, 35);
+    position: absolute;
+}
+
+.p.izquierdo {
+    top: 0px;
+    left: 90px;
+}
+
+.p.derecho {
+    top: 0px;
+    right: 90px;
+}
